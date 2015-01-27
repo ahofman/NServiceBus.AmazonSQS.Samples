@@ -45,7 +45,7 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NServiceBus.AmazonSQS">
-      <HintPath>..\packages\NServiceBus.AmazonSQS.1.0.0\lib\net45\NServiceBus.AmazonSQS.dll</HintPath>
+      <HintPath>..\packages\NServiceBus.AmazonSQS.1.1.0\lib\net45\NServiceBus.AmazonSQS.dll</HintPath>
     </Reference>
     <Reference Include="NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
