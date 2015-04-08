@@ -15,7 +15,8 @@ namespace VideoStore.ECommerce
             var configuration = new BusConfiguration();
             configuration.PurgeOnStartup(true);
             configuration.RijndaelEncryptionService();
-	        configuration.UseTransport<SqsTransport>();
+	        configuration.UseTransport<SqsTransport>()
+				.UseSqsDeferral();
 			
             // For production use, please select a durable persistence.
             // To use RavenDB, install-package NServiceBus.RavenDB and then use configuration.UsePersistence<RavenDBPersistence>();
